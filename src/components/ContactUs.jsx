@@ -21,15 +21,15 @@ export default class ContactUs extends Component {
           >
             <div>
               <div>
-                <label for="name">Name</label>
+                <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" required />
               </div>
               <div>
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="text" name="email" id="email" required />
               </div>
               <div>
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea name="message" id="message" rows="4" />
               </div>
             </div>
